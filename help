@@ -1,0 +1,3 @@
+PlayerSection:NewSlider("JumpPower", "Jump HIGH!!", 350, 50, function(s) -- 350 (MaxValue) | 50 (MinValue)
+game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
